@@ -8,6 +8,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './scr/Home';
 import ViewPdf from './scr/ViewPdf';
+import CheckNetwork from './scr/CheckNetwork';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,6 +21,8 @@ return(
     <Stack.Navigator>
     <Stack.Screen name="Home" component={Home} />
     <Stack.Screen name="ViewPdf" component={ViewPdf} />
+    <Stack.Screen name="CheckNetwork" component={CheckNetwork} />
+
     </Stack.Navigator>
 
   </NavigationContainer>

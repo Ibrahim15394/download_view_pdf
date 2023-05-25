@@ -65,7 +65,7 @@ const DownloadPdf = () => {
 
 
     return(
-        <View>
+        <View style ={{margin: 50}}>
             <TouchableOpacity onPress={() => {
                 // console.log( 'historyDownload>>>>>', historyDownload())
                        historyDownload();
